@@ -9,10 +9,13 @@ int check_number();
 
 int main() {
   
+  int number_input;
+  
+  setvbuf(stdout,NULL,_IONBF,0);
+  
   printf("Welcome!\n");
   printf("What is ur favorit number? ");
   
-  int number_input;
   scanf("%i", &number_input);
 
   printf("\nHmmmmmmmm\n");
